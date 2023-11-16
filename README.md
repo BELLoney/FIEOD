@@ -13,6 +13,9 @@ Then, two kinds of metrics are constructed to describe the outlier degree of obj
 Finally, the fuzzy entropy-based outlier factor is integrated to implement outlier detection, and the relevant fuzzy information entropy-based outlier detection algorithm (FIEOD) is designed. 
 The FIEOD algorithm is compared with the main outlier detection algorithms on public data. 
 The experimental results reveal that the proposed method has better effectiveness and adaptability.
+## Datasets
+
+https://github.com/BELLoney/Outlier-detection
 
 ## Usage
 You can run Demo_FIEOD.m:
