@@ -9,7 +9,7 @@ function FEOF=FIEOD(data,delta)
 % data is data matrix without decisions, where rows for samples and columns for attributes. 
 % delta is used to adjust the adaptive fuzzy radius.
 %%%output
-% Ranking objects and fuzzy entropy outlier factor (FEOF).
+% Fuzzy entropy outlier factor (FEOF).
 
 [n,m]=size(data);
 
