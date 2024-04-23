@@ -1,7 +1,7 @@
 # FIEOD
 Zhong Yuan, **Hongmei Chen***, Tianrui Li, Jia liu, and Shu Wang, 
 [Fuzzy Information Entropy-Based Adaptive Approach for Hybrid Feature Outlier Detection](FIEOD_code/2021-FIEOD.pdf), 
-Fuzzy Sets and Systems, Volume: 421, Pages: 1-28, 30 September 2021,, 
+Fuzzy Sets and Systems, Volume: 421, Pages: 1-28, 30 September 2021,
 DOI: [10.1016/j.fss.2020.10.017](https://doi.org/10.1016/j.fss.2020.10.017). (Code)
 
 ## Abstract
