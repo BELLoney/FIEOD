@@ -63,6 +63,7 @@ def FIEOD(data, delta):
     FRC_x[np.isnan(FRC_x)] = n
     RFE = 1 - FE_x / FE
     RFE = np.clip(RFE, 0, 1)
+    RFE[np.isnan(RFE)] = 0
 
     FOD_Xl = np.zeros((n, m))
     for r in range(n):
@@ -103,6 +104,7 @@ def FIEOD(data, delta):
     FRC_deA_x[np.isnan(FRC_deA_x)] = n
     RFE_deA = 1 - FE_deA_x / FE_deA
     RFE_deA = np.clip(RFE_deA, 0, 1)
+    RFE_deA[np.isnan(RFE_deA)] = 0
 
     FOD_deA_Xl = np.zeros((n, m))
     for r in range(n):
